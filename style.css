@@ -1,0 +1,39 @@
+
+.menu-list {
+    display: inline-flex;
+    position: absolute;
+    margin-bottom: 32px;
+}
+.menu-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin: 40px;
+    
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.header-tel {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    right: 215px;
+    top: 32px;
+    color: black;
+}
+.header-mail {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    color: black;
+}

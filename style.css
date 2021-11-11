@@ -7,7 +7,14 @@
 }
 
 body {
-    font-family: 'roboto', 'ralewey';
+    font-family: 'Roboto' sans-serif;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+.hero-btn {
+    background-color: #2196F3;
 }
 
 .list {
@@ -138,6 +145,12 @@ body {
 }
 
 
+
+
+
+.footer {
+    background-color: #2F303A;
+}
 
 .footer-logo {
     font-family: Raleway;

@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto' sans-serifs;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero {
@@ -29,20 +29,20 @@ body {
     color: var(--logo-hover-color);
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     font-family: 'raleway';
 }
 .header-studio {
     color: var(--second-title-color);
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     font-family: 'raleway';
 }
 .header-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,15;
+    line-height: 1.15;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
 }
@@ -53,7 +53,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,15;
+    line-height: 1.15;
     letter-spacing: 0.02em;
     color: var(--first-text-color);
 }
@@ -66,7 +66,7 @@ body {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     color: var(--main-title-color);
     text-align: center;
     letter-spacing: 0.06em;
@@ -77,7 +77,7 @@ body {
     font-family: Roboto;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
     display: flex;
@@ -90,7 +90,7 @@ body {
 .about-third-title {
     font-weight: bold;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-title-color);
@@ -109,7 +109,7 @@ body {
 .reasons-title {
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
@@ -120,7 +120,7 @@ body {
 .masters-title {
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
@@ -129,7 +129,7 @@ body {
 .masters-third-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
@@ -138,7 +138,7 @@ body {
 .maters-text {
     font-weight: normal;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
@@ -156,7 +156,7 @@ body {
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--logo-hover-color);
 }
@@ -165,31 +165,53 @@ body {
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-title-color)
 }
 
 .footer-address-map {
     font-weight: normal;
+    font-style: normal;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
 
 .footer-address-mail {
     font-weight: normal;
+    font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-address-tel {
     font-weight: normal;
+    font-style: normal;
     font-size: 14px;
     line-height: 1,7;
     letter-spacing: 0.03em;
     color:rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+.content-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.content-btn:hover {
+    color: var(--main-title-color);
+    background-color: var(--logo-hover-color);
 }
